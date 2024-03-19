@@ -21,6 +21,7 @@ const Secslide = () => {
      cssEase: 'linear',
      variableWidth: true,
      pauseOnFocus: false,
+     pauseOnHover:false,
     responsive: [
       {
         breakpoint: 1200,

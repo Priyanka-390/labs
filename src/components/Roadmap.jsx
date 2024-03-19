@@ -20,11 +20,11 @@ const Roadmap = () => {
             </span>
           </span>
         </div>
-        <h2 className="text-white pb-lg-5  mb-5 text-center pt-sm-3 pt-1 mb-0 ff-roboto fw-bold fs-52 lh-62">
+        <h2 className="text-white pb-lg-5  mb-sm-5 mb-3 text-center pt-sm-3 pt-1 mb-0 ff-roboto fw-bold fs-52 lh-62">
          Milestones and markers
         </h2>
-    <div className='pt-5'>
-          <div className='roadmapline position-relative'>
+    <div className='pt-md-5 mt-md-5'>
+          <div className='roadmapline mt-md-5 position-relative'>
             <img src={roadmapicon} alt="icon" className='roadmapicon d-sm-block d-none' />
             <div className="roadcircle"></div>
           <div className='d-flex justify-content-md-end ps-md-0 ps-3 ' data-aos="fade-left">

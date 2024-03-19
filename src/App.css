@@ -129,7 +129,7 @@
   border: 1px solid #ffffff29;
   border-radius: 8px;
   padding: 20px 0 20px 12px;
-  color: #BBBCBB !important;
+  color: #bbbcbb !important;
 }
 ::placeholder {
   color: #ffffffb0;
@@ -169,31 +169,31 @@ input {
   bottom: -20%;
   z-index: 2 !important;
 }
-.footerrightellips{
-  background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
-opacity: 75%;
-width: 818.79px;
-height: 88px;
-position: absolute;
-bottom: -20%;
-left: 60%;
-z-index: 4;
-border-radius: 50%;
-filter: blur(234px);
+.footerrightellips {
+  background: linear-gradient(151.6deg, #d4145a 1.85%, #fbb03b 98.12%);
+  opacity: 75%;
+  width: 818.79px;
+  height: 88px;
+  position: absolute;
+  bottom: -20%;
+  left: 60%;
+  z-index: 4;
+  border-radius: 50%;
+  filter: blur(234px);
 }
-.footerleftellipse{
+.footerleftellipse {
   width: 496.78px;
   height: 206px;
-  background: #AD1AAF;
-opacity: 75%;
-filter: blur(206px);
-bottom: -40%;
-left: -10%;
-z-index: 4;
-border-radius: 50%;
-position: absolute;
+  background: #ad1aaf;
+  opacity: 75%;
+  filter: blur(206px);
+  bottom: -40%;
+  left: -10%;
+  z-index: 4;
+  border-radius: 50%;
+  position: absolute;
 }
-.overflow-y-clip{
+.overflow-y-clip {
   overflow-y: clip;
 }
 .domainbtn {
@@ -203,16 +203,17 @@ position: absolute;
 .domainbg {
   background-image: url("./assets/images/domainimg.webp");
   height: 422.27px;
+  background-repeat: no-repeat;
 }
 .whatbg {
   background-image: url("./assets//images//whatbg.webp");
   background-position: center;
   background-size: cover;
 }
-.slideimg{
+.slideimg {
   opacity: 30%;
 }
-.slideimg:hover{
+.slideimg:hover {
   opacity: 100%;
 }
 .cardellipse {
@@ -251,15 +252,15 @@ position: absolute;
     rgba(251, 176, 59, 0.4) 98.12%
   );
 }
-.roadmapline{
+.roadmapline {
   position: relative;
 }
 
-.roadmapcard:hover.cardborder::after{
+.roadmapcard:hover.cardborder::after {
   display: block;
 }
-.roadmapcard:hover .cardellipse{
- background: linear-gradient(151.6deg, #d4145a 1.85%, #fbb03b 98.12%);
+.roadmapcard:hover .cardellipse {
+  background: linear-gradient(151.6deg, #d4145a 1.85%, #fbb03b 98.12%);
   top: 90%;
   transition: all 300ms linear;
   height: 116.7px;
@@ -280,9 +281,6 @@ position: absolute;
 }
 .card-1:hover.cardborder::after {
   display: block;
-}
-.card-1:hover {
-  transform: translateY(-35px);
 }
 .sideborder {
   position: relative;
@@ -329,21 +327,21 @@ position: absolute;
 .overflow-x-clip {
   overflow-x: clip;
 }
- .roadmapline::after{
+.roadmapline::after {
   position: absolute;
- height: 100%;
- content: "";
- left: 0;
-  width:  1px;
+  height: 100%;
+  content: "";
+  left: 0;
+  width: 1px;
   top: 0;
- background: linear-gradient(180deg, #ec7646 1.56%, #fff0 94.87%);
+  background: linear-gradient(180deg, #ec7646 1.56%, #fff0 94.87%);
 }
-.roadmapcard{
+.roadmapcard {
   max-width: 477px;
   height: 197px;
-  background: #1E1E1E75;
+  background: #1e1e1e75;
   border-radius: 30px;
-  color: #C1BBBB;
+  color: #c1bbbb;
   width: 100%;
 }
 /* =====ellips===== */
@@ -359,47 +357,47 @@ position: absolute;
   filter: blur(185.33px);
 }
 .richellipse {
-    width: 362px;
-    height: 366px;
-    background: linear-gradient(151.6deg, #d4145a 1.85%, #fbb03b 98.12%);
-    position: absolute;
-    right: 1%;
-    top: 25%;
-    filter: blur(140px);
-    z-index: -1;
+  width: 362px;
+  height: 366px;
+  background: linear-gradient(151.6deg, #d4145a 1.85%, #fbb03b 98.12%);
+  position: absolute;
+  right: 1%;
+  top: 25%;
+  filter: blur(140px);
+  z-index: -1;
 }
 .roadmapellipse {
-    width: 358px;
-    height: 348px;
-    opacity: 70%;
-    z-index: -1;
-    background-color: #ad1aaf;
-    filter: blur(196px);
-    position: absolute;
-    top: 16%;
-    left: -10%;
+  width: 358px;
+  height: 348px;
+  opacity: 70%;
+  z-index: -1;
+  background-color: #ad1aaf;
+  filter: blur(196px);
+  position: absolute;
+  top: 16%;
+  left: -10%;
 }
 .ourteamellipse2 {
-    width: 220px;
-    position: absolute;
-    left: -11px;
-    bottom: 35%;
-    z-index: -1;
-    filter: blur(167px);
-   height: 214px;
-    opacity: 75%;
-    background: linear-gradient(151.6deg, #d4145a 1.85%, #fbb03b 98.12%);
+  width: 220px;
+  position: absolute;
+  left: -11px;
+  bottom: 35%;
+  z-index: -1;
+  filter: blur(167px);
+  height: 214px;
+  opacity: 75%;
+  background: linear-gradient(151.6deg, #d4145a 1.85%, #fbb03b 98.12%);
 }
 .ourteamellipse1 {
-    width: 220px;
-    position: absolute;
-    right: -115px;
-    top: 35%;
-    z-index: -1;
-    filter: blur(167px);
-   height: 214px;
-    opacity: 75%;
-    background: linear-gradient(151.6deg, #d4145a 1.85%, #fbb03b 98.12%);
+  width: 220px;
+  position: absolute;
+  right: -115px;
+  top: 35%;
+  z-index: -1;
+  filter: blur(167px);
+  height: 214px;
+  opacity: 75%;
+  background: linear-gradient(151.6deg, #d4145a 1.85%, #fbb03b 98.12%);
 }
 .playbtn {
   padding: 16px 32px !important;
@@ -408,12 +406,11 @@ position: absolute;
   background: linear-gradient(151.6deg, #d4145a 1.85%, #fbb03b 98.12%);
   padding: 12px 32px;
   border-radius: 261px;
-  border: 2px solid transparent;
   transition: all 300ms linear;
+  border: none;
 }
-.navbtn:hover{
-  background: transparent;
-  border: 2px solid #d4145a;
+.navbtn:hover {
+  background: linear-gradient(151.6deg, #d4145a 50.85%, #fbb03b 90.12%);
 }
 .heroicon {
   position: absolute;
@@ -421,13 +418,13 @@ position: absolute;
   left: 46%;
 }
 .youtube {
- position: absolute;
-    left: 50%;
-    width: 56px;
-    height: 56px;
-    cursor: pointer;
-    top: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .btngradient {
@@ -487,10 +484,10 @@ input[type="checkbox"] {
 .nav_line:hover::after {
   width: 100%;
 }
-.footericon{
+.footericon {
   transition: all 300ms linear;
 }
-.footericon:hover{
+.footericon:hover {
   transform: translateY(-7px);
 }
 .back-button {
@@ -503,13 +500,14 @@ input[type="checkbox"] {
   border-radius: 50%;
 }
 .input-box {
-    outline: 0;
+  outline: 0;
 }
 .input-box:focus {
-    border: 1px solid transparent;
-    background-image: linear-gradient(#292b27, #292b27), linear-gradient(151.6deg, #d4145a66 1.85%, #fbb03b66 98.12%);
-    background-origin: border-box;
-    background-clip: padding-box, border-box;
+  border: 1px solid transparent;
+  background-image: linear-gradient(#292b27, #292b27),
+    linear-gradient(151.6deg, #d4145a66 1.85%, #fbb03b66 98.12%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
 }
 .bounce {
   animation: bounce 2s linear infinite;
@@ -555,17 +553,17 @@ input[type="checkbox"] {
     --fs-4xl: 50px;
     --fs-5xl: 100.49px;
   }
-  .min-vh-sm-100{
+  .min-vh-sm-100 {
     min-height: 100vh;
   }
-  .roadmapicon{
-  position: absolute;
-  top: -7%;
-  left: -8%;
-  z-index: 1;
-  width: 80px;
-}
-  .w-sm-50{
+  .roadmapicon {
+    position: absolute;
+    top: -7%;
+    left: -8%;
+    z-index: 1;
+    width: 80px;
+  }
+  .w-sm-50 {
     width: 50%;
   }
   .card-1 {
@@ -585,28 +583,31 @@ input[type="checkbox"] {
     border: 1px solid transparent;
     height: 100%;
   }
-  .roadmapline::after{
- left: 50%;
+  .card-1:hover {
+  transform: translateY(-35px);
 }
+  .roadmapline::after {
+    left: 50%;
+  }
   .uppergradient {
-  height: 196px;
-  left: 0;
-  right: 0;
-  position: absolute;
-  top: -10%;
-  background: linear-gradient(180deg, #000000 21.35%, rgba(0, 0, 0, 0) 100%);
-}
-  .roadmapcard{
-  max-width: 300px;
-  height: 150px;
-  padding: 10px;
-}
+    height: 196px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: -10%;
+    background: linear-gradient(180deg, #000000 21.35%, rgba(0, 0, 0, 0) 100%);
+  }
+  .roadmapcard {
+    max-width: 300px;
+    height: 150px;
+    padding: 10px;
+  }
   .updatecard {
-  background: #0000001a;
-  backdrop-filter: blur(3.2px);
-  padding: 40px;
-  border-radius: 30px;
-}
+    background: #0000001a;
+    backdrop-filter: blur(3.2px);
+    padding: 40px;
+    border-radius: 30px;
+  }
   .lh-16 {
     line-height: 16.41px;
   }
@@ -643,11 +644,11 @@ input[type="checkbox"] {
   .lh-224 {
     line-height: 224.98px;
   }
-  .roadmapicon{
-  left: 43%;
-  top: -5%;
-   width: 104px;
-}
+  .roadmapicon {
+    left: 43%;
+    top: -5%;
+    width: 104px;
+  }
   :root {
     /* =====font-sizes ===== */
     --fs-xs: 14px;
@@ -674,42 +675,42 @@ input[type="checkbox"] {
     --fs-4xl: 72px;
     --fs-5xl: 187.49px;
   }
-    .roadmapicon{
-  left: 46%;
-}
-  .roadmapcard{
-  max-width: 450px;
-  height: 170px;
-}
+  .roadmapicon {
+    left: 46%;
+  }
+  .roadmapcard {
+    max-width: 450px;
+    height: 170px;
+  }
   .abouttext {
     position: absolute;
     top: -3%;
     right: -8%;
     z-index: -1;
   }
-  .teamtext{
-      position: absolute;
+  .teamtext {
+    position: absolute;
     top: -5%;
     left: -7%;
     z-index: -1;
   }
 }
-@media (min-width:1200px) {
-  .roadmapcard{
-  max-width: 477px;
-  height: 197px;
+@media (min-width: 1200px) {
+  .roadmapcard {
+    max-width: 477px;
+    height: 197px;
+  }
 }
-}
-@media (max-width:576px) {
-  .roadcircle{
+@media (max-width: 576px) {
+  .roadcircle {
     width: 24px;
     height: 24px;
-  background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
-  border-radius: 50%;
-  position: absolute;
-  top: 0;
-  left: -3%;
-  z-index: 1;
+    background: linear-gradient(151.6deg, #d4145a 1.85%, #fbb03b 98.12%);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: -3%;
+    z-index: 1;
   }
 }
 @media (max-width: 992px) {
@@ -728,7 +729,7 @@ input[type="checkbox"] {
     background-image: url("./assets//images/bg-hero.webp");
     z-index: 6 !important;
   }
-  .max-h-740{
+  .max-h-740 {
     height: 400px;
     border-radius: 30px;
   }

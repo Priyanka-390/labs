@@ -71,7 +71,7 @@ const datacard = [
 
 const Behindsec = () => {
     const data2 = datacard.map ((datacard,i)=> (
-         <div  key={i} className="col-md-6 mb-md-4 mb-1">
+         <div  key={i} className="col-md-6 mb-md-4 mb-2">
             <div className="card-2  position-relative overflow-hidden">
               <div data-aos="zoom-in-down" className="row">
                 <div className="col-lg-5 ">
