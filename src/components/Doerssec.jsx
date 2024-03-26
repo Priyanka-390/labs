@@ -33,8 +33,8 @@ const Doerssec = () => {
           </div>
     ))
   return (
-    <div id="about" className="pt-md-5 pb-4 position-relative overflow-x-clip z-1 bg-black">
-        <h2 className="ff-roboto fw-bold fs-187 lh-224 abouttext text-center text-whiteopacity">
+    <div id="about" className="pt-5 pb-4 position-relative overflow-x-clip z-1 bg-black">
+        <h2 className="ff-roboto fw-bold mb-0 fs-187 lh-224 abouttext  text-whiteopacity">
         About Us
       </h2>
       <div className="container pt-lg-5 mt-md-4">

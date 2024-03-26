@@ -34,7 +34,7 @@ const Secslide = () => {
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1.5,
           autoplaySpeed: 0,
           speed: 4000,
         },

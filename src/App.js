@@ -31,7 +31,7 @@ function App() {
   useEffect(() => {
     AOS.init({
       once: true,
-      duration: 2000,
+      duration: 1000,
     });
   }, []);
   return (
@@ -40,7 +40,7 @@ function App() {
         <div>{ <Preloader /> }</div>
       ) : (
       <div className="App bg-black">
-        <div id='home' className="herobg-img min-vh-100 pb-5 d-flex flex-column">
+        <div id='home' className="herobg-img min-vh-100 pb-md-5 d-flex flex-column">
           <Mynav />
           <Herosec/>
         </div>

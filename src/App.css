@@ -119,6 +119,12 @@
   padding: 34px;
   border-radius: 30px;
 }
+.teamtext {
+    position: absolute;
+    top: 0%;
+    left: -7%;
+    z-index: -1;
+  }
 .makebtn {
   padding: 16px 48px !important;
 }
@@ -415,8 +421,9 @@ input {
 }
 .heroicon {
   position: absolute;
-  bottom: -10%;
-  left: 46%;
+  bottom: -5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .youtube {
   position: absolute;
@@ -491,6 +498,12 @@ input[type="checkbox"] {
 .footericon:hover {
   transform: translateY(-7px);
 }
+  .abouttext {
+    position: absolute;
+    top: -4%;
+    right: -14%;
+    z-index: -1;
+  }
 .back-button {
   bottom: 10px;
   right: 10px;
@@ -584,6 +597,12 @@ input[type="checkbox"] {
     border: 1px solid transparent;
     height: 100%;
   }
+    .abouttext {
+    position: absolute;
+    top: -3%;
+    right: -8%;
+    z-index: -1;
+  }
   .card-1:hover {
   transform: translateY(-35px);
 }
@@ -605,7 +624,7 @@ input[type="checkbox"] {
   }
   .updatecard {
     background: #0000001a;
-    backdrop-filter: blur(3.2px);
+   backdrop-filter: blur(30.2px);
     padding: 40px;
     border-radius: 30px;
   }
@@ -676,24 +695,18 @@ input[type="checkbox"] {
     --fs-4xl: 72px;
     --fs-5xl: 187.49px;
   }
+  .teamtext {
+    position: absolute;
+    top: -8%;
+    left: -7%;
+    z-index: -1;
+  }
   .roadmapicon {
     left: 46%;
   }
   .roadmapcard {
     max-width: 450px;
     height: 170px;
-  }
-  .abouttext {
-    position: absolute;
-    top: -3%;
-    right: -8%;
-    z-index: -1;
-  }
-  .teamtext {
-    position: absolute;
-    top: -5%;
-    left: -7%;
-    z-index: -1;
   }
 }
 @media (min-width: 1200px) {
@@ -713,6 +726,7 @@ input[type="checkbox"] {
     left: -3%;
     z-index: 1;
   }
+ 
 }
 @media (max-width: 992px) {
   .nav_bar {

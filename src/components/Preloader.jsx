@@ -6,7 +6,6 @@ const Preloader = () => {
       <div className="position-relative d-flex animation justify-content-center align-items-center ">
         <img src={logo} alt="logo" />
       </div>
-          <p className="ff-roboto animation pt-3 fs-52 text-white">Loading...</p>
 
     </div>
   );

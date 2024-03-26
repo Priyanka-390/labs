@@ -94,10 +94,10 @@ const Behindsec = () => {
           </div>
     ))
   return (
-    <div id="team" className="py-lg-5 overflow-x-clip position-relative z-3">
+    <div id="team" className="py-5 overflow-x-clip position-relative z-3">
       <div className="ourteamellipse1"></div>
       <div className="ourteamellipse2"></div>
-       <h2 className="ff-roboto fw-bold fs-187 lh-224 teamtext text-center text-whiteopacity">
+       <h2 className="ff-roboto fw-bold fs-187 lh-224 teamtext text-whiteopacity">
      Our Team
       </h2>
       <div className="container pb-4">

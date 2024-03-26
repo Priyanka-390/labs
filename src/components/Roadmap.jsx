@@ -51,7 +51,7 @@ const Roadmap = () => {
            <div className='ps-md-0 ps-3' data-aos="fade-right">
              <div className="roadmapcard cardborder my-md-5 my-2 overflow-hidden position-relative d-flex justify-content-center align-items-center flex-column">
                 <h3 className='btngradient mb-0 ff-roboto text-center fs-24 lh-28 fw-normal'>Jan 2020</h3>
-                <p className='pt-1 ff-roboto fs-24 lh-28 text-center fw-normal mb-0'>launch On <span><img src={flag1} alt="1" /></span> <span><img src={flag2} alt="2" /></span> <span><img src={flag3} alt="" /></span></p>
+                <p className='pt-1 ff-roboto fs-24 lh-28 text-center  fw-normal mb-0'>launch On <span className=' px-2'><img src={flag1} alt="1" /></span> <span><img src={flag2} alt="2" /></span> <span className='ps-2'><img src={flag3} alt="" /></span></p>
                 <div className="cardellipse"></div>
                        </div>
             </div>
