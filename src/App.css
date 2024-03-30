@@ -120,11 +120,11 @@
   border-radius: 30px;
 }
 .teamtext {
-    position: absolute;
-    top: 0%;
-    left: -7%;
-    z-index: -1;
-  }
+  position: absolute;
+  top: 0%;
+  left: -7%;
+  z-index: -1;
+}
 .makebtn {
   padding: 16px 48px !important;
 }
@@ -211,6 +211,8 @@ input {
   background-image: url("./assets/images/domainimg.webp");
   height: 422.27px;
   background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
 }
 .whatbg {
   background-image: url("./assets//images//whatbg.webp");
@@ -468,7 +470,6 @@ input[type="checkbox"] {
   );
   padding: 10px 19px;
   border-radius: 30px;
-  cursor: pointer;
 }
 .text-whiteopacity {
   color: #0f0f0f;
@@ -498,12 +499,12 @@ input[type="checkbox"] {
 .footericon:hover {
   transform: translateY(-7px);
 }
-  .abouttext {
-    position: absolute;
-    top: -4%;
-    right: -14%;
-    z-index: -1;
-  }
+.abouttext {
+  position: absolute;
+  top: -4%;
+  right: -14%;
+  z-index: -1;
+}
 .back-button {
   bottom: 10px;
   right: 10px;
@@ -597,15 +598,15 @@ input[type="checkbox"] {
     border: 1px solid transparent;
     height: 100%;
   }
-    .abouttext {
+  .abouttext {
     position: absolute;
     top: -3%;
     right: -8%;
     z-index: -1;
   }
   .card-1:hover {
-  transform: translateY(-35px);
-}
+    transform: translateY(-35px);
+  }
   .roadmapline::after {
     left: 50%;
   }
@@ -624,7 +625,7 @@ input[type="checkbox"] {
   }
   .updatecard {
     background: #0000001a;
-   backdrop-filter: blur(30.2px);
+    backdrop-filter: blur(30.2px);
     padding: 40px;
     border-radius: 30px;
   }
@@ -726,7 +727,6 @@ input[type="checkbox"] {
     left: -3%;
     z-index: 1;
   }
- 
 }
 @media (max-width: 992px) {
   .nav_bar {
